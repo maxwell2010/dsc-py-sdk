@@ -13,8 +13,9 @@ git clone https://github.com/yourusername/dsc-py-sdk.git
 cd dsc-py-sdk
 pip install -e .
 
-## Usage
+### Usage
 
+```bash
 from dsc_sdk.wallet import Wallet
 from dsc_sdk.client import DecimalClient
 from dsc_sdk.evm_service import send_del_tokens, delegate_del
@@ -29,6 +30,7 @@ tx_hash = send_del_tokens(client, "0x1w98j4vk6dkpyndjnv5dn2eemesq6a2c2j9depy", "
 print(f"TX Hash: {tx_hash}")
 
 Пример: подписка на событие Transfer ERC-20
+```bash
 from dsc_sdk.wallet import Wallet
 from dsc_sdk.client import DecimalClient
 from dsc_sdk.evm_contract import EVMContract
