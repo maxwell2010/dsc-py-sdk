@@ -10,7 +10,7 @@ pip install dsc-py-sdk
 
 Or install from source:
 ```bash
-git clone https://github.com/yourusername/dsc-py-sdk.git 
+git clone https://github.com/maxwell2010/dsc-py-sdk.git 
 cd dsc-py-sdk
 pip install -e .
 ```
